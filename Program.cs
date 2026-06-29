@@ -19,7 +19,15 @@ var companies = new Company[]
     new Company("TÜPRAŞ - Türkiye Petrol Rafinerileri A.Ş.", new DateOnly(2015, 3, 18), 422.35, 183.55),
 };
 
-// Add scrapper and get company information
+// TODO: Scrap from: https://www.borsaningundemi.com/piyasa-ekrani/hisse-detay/TUPRS
+System.Xml.XmlDocument docXML = new System.Xml.XmlDocument();
+docXML.Load("https://www.borsaningundemi.com/piyasa-ekrani/bist-hisseler");
+string innerText = docXML.InnerText;
+
+app.MapGet("/scrapper", () =>
+{
+    return innerText;
+}).WithName("ScrapCompanies");
 
 app.MapGet("/companies", () =>
 {
@@ -31,5 +39,5 @@ app.Run();
 
 record Company(string CompanyName, DateOnly CreationDate, double BookValue, double MarketValue)
 {
-    
+
 }

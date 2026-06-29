@@ -32,3 +32,4 @@
 /Users/karahanbuhan/Documents/Development/SirketBilgiAPI/obj/Debug/net10.0/SirketBilgiAPI.pdb
 /Users/karahanbuhan/Documents/Development/SirketBilgiAPI/obj/Debug/net10.0/SirketBilgiAPI.genruntimeconfig.cache
 /Users/karahanbuhan/Documents/Development/SirketBilgiAPI/obj/Debug/net10.0/ref/SirketBilgiAPI.dll
+/Users/karahanbuhan/Documents/Development/SirketBilgiAPI/bin/Debug/net10.0/companies.json
