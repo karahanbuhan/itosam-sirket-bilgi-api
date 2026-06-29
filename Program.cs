@@ -14,28 +14,22 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
+var companies = new Company[]
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+    new Company("TÜPRAŞ - Türkiye Petrol Rafinerileri A.Ş.", new DateOnly(2015, 3, 18), 422.35, 183.55),
 };
 
-app.MapGet("/weatherforecast", () =>
+// Add scrapper and get company information
+
+app.MapGet("/companies", () =>
 {
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
+    return companies;
 })
-.WithName("GetWeatherForecast");
+.WithName("ListCompanies");
 
 app.Run();
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
+record Company(string CompanyName, DateOnly CreationDate, double BookValue, double MarketValue)
 {
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    
 }
