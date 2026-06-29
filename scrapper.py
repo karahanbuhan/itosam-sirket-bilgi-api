@@ -14,7 +14,7 @@ for li in soup.find_all("li"):
     for c in classes:
         if c.startswith("name_"):
             c = c.replace("name_", "")
-            buff.append("https://www.borsaningundemi.com/piyasa-ekrani/hisse-detay/" + c)
+            urls.append("https://www.borsaningundemi.com/piyasa-ekrani/hisse-detay/" + c)
 
 
 print(urls)
