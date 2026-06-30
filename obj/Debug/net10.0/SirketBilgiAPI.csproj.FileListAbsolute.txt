@@ -38,7 +38,6 @@ C:\Users\Karahan\source\repos\sirket-bilgi-api\obj\Debug\net10.0\refint\SirketBi
 C:\Users\Karahan\source\repos\sirket-bilgi-api\obj\Debug\net10.0\SirketBilgiAPI.pdb
 c:\Users\Karahan\source\repos\sirket-bilgi-api\bin\Debug\net10.0\appsettings.Development.json
 c:\Users\Karahan\source\repos\sirket-bilgi-api\bin\Debug\net10.0\appsettings.json
-c:\Users\Karahan\source\repos\sirket-bilgi-api\bin\Debug\net10.0\companies.json
 c:\Users\Karahan\source\repos\sirket-bilgi-api\bin\Debug\net10.0\SirketBilgiAPI.staticwebassets.endpoints.json
 c:\Users\Karahan\source\repos\sirket-bilgi-api\bin\Debug\net10.0\SirketBilgiAPI.exe
 c:\Users\Karahan\source\repos\sirket-bilgi-api\bin\Debug\net10.0\SirketBilgiAPI.deps.json
