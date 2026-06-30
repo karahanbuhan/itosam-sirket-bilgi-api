@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Karahan\\source\\repos\\sirket-bilgi-api\\SirketBilgiAPI.csproj": {}
+    "c:\\Users\\Karahan\\source\\repos\\sirket-bilgi-api\\SirketBilgiAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Karahan\\source\\repos\\sirket-bilgi-api\\SirketBilgiAPI.csproj": {
+    "c:\\Users\\Karahan\\source\\repos\\sirket-bilgi-api\\SirketBilgiAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Karahan\\source\\repos\\sirket-bilgi-api\\SirketBilgiAPI.csproj",
+        "projectUniqueName": "c:\\Users\\Karahan\\source\\repos\\sirket-bilgi-api\\SirketBilgiAPI.csproj",
         "projectName": "SirketBilgiAPI",
-        "projectPath": "C:\\Users\\Karahan\\source\\repos\\sirket-bilgi-api\\SirketBilgiAPI.csproj",
+        "projectPath": "c:\\Users\\Karahan\\source\\repos\\sirket-bilgi-api\\SirketBilgiAPI.csproj",
         "packagesPath": "C:\\Users\\Karahan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Karahan\\source\\repos\\sirket-bilgi-api\\obj\\",
+        "outputPath": "c:\\Users\\Karahan\\source\\repos\\sirket-bilgi-api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

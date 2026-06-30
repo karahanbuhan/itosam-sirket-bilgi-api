@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 from time import sleep
+import sys
 
 # Step 1: Get names of pages and urls
 
@@ -35,7 +36,6 @@ for j in range(40, 2000):
     buff = []
     a = soup.find_all("li")
     for q in a:
-        print(q)
         if q.get("class") is None:
             continue
         buff.append(q)
@@ -52,5 +52,4 @@ for j in range(40, 2000):
             bvalues[j] = b
 
     time.sleep(0.5)
-
-    print("new Company(\"{0}\", {1}, {2}),".format(companies[j], mvalues[j].replace(".", "").replace(",00", ""), bvalues[j].replace(",", ".")))
+    print("new Company(\"{0}\", {1}, {2}),".format(companies[j], str(mvalues[j]).replace(".", "").replace(",00", ""), str(bvalues[j]).replace(",", ".")))
