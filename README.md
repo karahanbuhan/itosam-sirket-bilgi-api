@@ -1,5 +1,5 @@
 # ŞirketBilgi API
-Şirketlerin hisse isimlerini, market ve defter değerlerini JSON ile yayınlayan basit bir API. Manuel olarak scrapper sonuçlarının API'a aktarılması gerekmektedir, bir pipeline yoktur.
+Şirketlerin hisse isimlerini, market ve defter değerlerini JSON ile yayınlayan basit bir Web API. Manuel olarak scrapper sonuçlarının API'a aktarılması gerekmektedir, bir pipeline yoktur.
 
 /companies-2026-06-30: sonucu aşağıdaki formatta API üzerinden verilir
 ```JSON
