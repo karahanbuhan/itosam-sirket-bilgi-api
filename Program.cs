@@ -14,7 +14,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var companies2026_06_30 = new Company[]
+var companies_2026_06_30 = new Company[]
 {
     new Company("A1CAP", 7337250000, 13.42),
     new Company("A1YEN", 1794000000, 5.63),
@@ -637,9 +637,9 @@ var companies2026_06_30 = new Company[]
     new Company("ZRGYO", 83781117000, 18.68),
 };
 
-app.MapGet("/companies2026-06-30", () =>
+app.MapGet("/companies-2026-06-30", () =>
 {
-    return companies2026_06_30;
+    return companies_2026_06_30;
 })
 .WithName("ListCompanies");
 
